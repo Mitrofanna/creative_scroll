@@ -22,6 +22,15 @@
   src: url(../fonts/outfit-regular.woff2);
 }
 
+/*will-change*/
+.content,
+.hero,
+.main-header,
+.gallery__right,
+.gallery__left {
+  will-change: transform;
+}
+
 .main {
   background-image: url("../img/bg.jpg");
   background-size: 50px;
