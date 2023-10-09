@@ -110,15 +110,18 @@
 
 .gallery__text {
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 22px;
-  line-height: 22px;
-  text-transform: uppercase;
+  padding: 40px 10px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
 }
 
 .gallery__buttons {
   text-align: center;
+}
+
+.gallery__icon {
+  vertical-align: middle;
 }
 
 .gallery__link {
