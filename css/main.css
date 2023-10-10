@@ -9,7 +9,7 @@
   --index: calc(1vw + 1vh);
   --color-header: #f4efec;
   --color-text: #cdc6c3;
-  --gallery-gap: calc(var(--index) * 10);
+  --gallery-gap: calc(var(--index) * 5);
 }
 
 @font-face {
@@ -148,14 +148,65 @@
   color: var(--color-text);
 }
 
+
+.text-block__hero {
+  font-family: outfit-c;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--color-header);
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.text-block__about {
+  font-family: outfit-c;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--color-header);
+  max-width: 500px;
+  padding-top: 300px;
+  margin-bottom: 20px;
+}
+
+.text-block__about-me {
+  font-family: outfit-c;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  color: var(--color-header);
+  max-width: 500px;
+}
+
 .text-block__title {
+  position: relative;
   font-family: outfit-c;
   font-size: 2rem;
   line-height: 2.4rem;
   color: var(--color-header);
   margin-bottom: 1.5rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .text-block__description {
   line-height: 1.75;
+  margin-bottom: 10px;
 }
+
+.gallery__link-contact {
+  border: none;
+  line-height: 1.75;
+}
+
+.text-block__animation {
+  animation: typewriter 5s steps(40) 1s 1 normal both, textCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+};
