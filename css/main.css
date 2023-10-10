@@ -156,14 +156,10 @@
   color: var(--color-header);
   max-width: 500px;
   margin-bottom: 20px;
+  opacity: 85%;
 }
 
 .text-block__about {
-  font-family: outfit-c;
-  font-size: 2rem;
-  line-height: 3rem;
-  color: var(--color-header);
-  max-width: 500px;
   padding-top: 300px;
   margin-bottom: 20px;
 }
@@ -173,6 +169,7 @@
   font-size: 1.3rem;
   line-height: 2.2rem;
   color: var(--color-header);
+  opacity: 50%;
   max-width: 500px;
 }
 
@@ -199,7 +196,7 @@
 }
 
 .text-block__animation {
-  animation: typewriter 5s steps(40) 1s 1 normal both, textCursor 500ms steps(40) infinite normal;
+  animation: typewriter 4s steps(50) 1s 1 normal both, textCursor 500ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
