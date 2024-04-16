@@ -9,7 +9,7 @@
   --index: calc(1vw + 1vh);
   --color-header: #f4efec;
   --color-text: #cdc6c3;
-  --gallery-gap: calc(var(--index) * 5);
+  --gallery-gap: calc(var(--index) * 4);
 }
 
 @font-face {
@@ -32,7 +32,7 @@
 }
 
 .main {
-  background-image: url("../img/bg.jpg");
+  background-image: url('../img/bg.jpg');
   background-size: 50px;
   color: #fafafa;
   font-family: raleway-c;
@@ -60,13 +60,9 @@
   width: min-content;
 }
 
-.main-header {
-  height: 100vh;
-}
-
 .gallery {
   display: flex;
-  padding: calc(var(--index) * 8) 0;
+  /* padding: calc(var(--index) * 4) 0; */
 }
 
 .gallery__right,
@@ -138,16 +134,10 @@
   margin-top: calc(var(--gallery-gap) * 1.75);
 }
 
-.gallery__right .item{
+.gallery__right .item {
   margin: 0;
   margin-top: calc(var(--gallery-gap));
 }
-
-.text-block {
-  position: relative;
-  color: var(--color-text);
-}
-
 
 .text-block__hero {
   font-family: outfit-c;
@@ -175,9 +165,8 @@
 
 .text-block__title {
   position: relative;
-  font-family: outfit-c;
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: var(--color-header);
   margin-bottom: 1.5rem;
   width: 100%;
@@ -206,4 +195,27 @@
   to {
     width: 100%;
   }
-};
+}
+
+.promo {
+  margin: 30px;
+}
+
+.promo__title {
+  margin-bottom: 10px;
+}
+
+.promo__about {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.promo__item {
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  color: #9f9996;
+}
+
+.gallery__git {
+  padding-left: 0;
+}
