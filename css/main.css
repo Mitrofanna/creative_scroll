@@ -51,18 +51,9 @@
   padding: 0 7vw;
 }
 
-.main-title {
-  font-family: outfit-c;
-  position: absolute;
-  font-size: calc(var(--index) * 8);
-  line-height: 0.9;
-  bottom: 10vh;
-  width: min-content;
-}
-
 .gallery {
   display: flex;
-  /* padding: calc(var(--index) * 4) 0; */
+  padding: calc(var(--index) * 4) 0;
 }
 
 .gallery__right,
@@ -139,44 +130,15 @@
   margin-top: calc(var(--gallery-gap));
 }
 
-.text-block__hero {
-  font-family: outfit-c;
-  font-size: 1.5rem;
-  line-height: 2.4rem;
-  color: var(--color-header);
-  max-width: 500px;
-  margin-bottom: 20px;
-  opacity: 85%;
-}
-
-.text-block__about {
-  padding-top: 300px;
-  margin-bottom: 20px;
-}
-
-.text-block__about-me {
-  font-family: outfit-c;
-  font-size: 1.3rem;
-  line-height: 2.2rem;
-  color: var(--color-header);
-  opacity: 50%;
-  max-width: 500px;
-}
-
 .text-block__title {
   position: relative;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: calc(var(--index) * 1.6);
+  line-height: 1.1;
   color: var(--color-header);
   margin-bottom: 1.5rem;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-}
-
-.text-block__description {
-  line-height: 1.75;
-  margin-bottom: 10px;
 }
 
 .gallery__link-contact {
@@ -202,12 +164,16 @@
 }
 
 .promo__title {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: calc(var(--index) * 2.2);
+  line-height: 1.3;
 }
 
 .promo__about {
   margin-bottom: 10px;
   margin-top: 10px;
+  font-size: calc(var(--index) * 1.6);
+  line-height: 1.1;
 }
 
 .promo__item {
